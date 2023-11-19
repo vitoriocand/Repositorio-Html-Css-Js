@@ -28,33 +28,23 @@ body{
     color: white;
     text-align: center;
 }
-nav{
+#icone{
     width: 300px;
     text-align: center;
     margin-bottom: 40px;
     margin-top: -21px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
     
 }
-.nave > li{
+#icone ul > li{
     display: inline;
 }
-.nave > li > a{
-    text-decoration: none;
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
+#icone ul > li > a > img{
+    width: 30px;
+    margin: 10px;
     transition: 0.5s;
-    text-shadow: rgba(0, 0, 0, 0.493) 2px 2px 3px;
 }
-.nave > li > a:hover{
-    text-transform: uppercase;
-    color: black;
-    font-size: 15px;
-    background-color: white;
-    border-radius: 10px;
-    padding: 5px;
+#icone ul > li > a > img:hover{
+    width: 40px;
     
 }
 .login .box-user{
@@ -89,12 +79,16 @@ nav{
     left: 0;
     color: black;
     font-size: 12px;
+    background-image: linear-gradient(90deg, white, transparent);
+    padding: 3px;
+    border-radius: 3px;
+    width: 100%;
 
 }
 .forget{
-    font-size: 12px;
+    font-size: 14px;
     color: rgb(230, 223, 223);
-    float: right;
+    float: left;
     margin-top: -5px;
     transition: 1s;
 }
@@ -102,24 +96,6 @@ nav{
     color: black;
     text-transform: uppercase;
 }
-.icones{
-   display: flex;
-   justify-content: flex-end;
-   margin-top: -35px;
-}
-.icones > a{
-    padding: 4px;
-}
-.icones > a > img{
-    width: 20px;
-    transition: 0.5s;
-    
-}
-
-.icones > a > img:hover{
-    width: 25px;
-}
-
 .btn{
     position: relative;
     display: inline-block;
@@ -133,6 +109,7 @@ nav{
     margin-top: 20px;
     transition: .5s;
     overflow: hidden;
+    float: right;
 
 }
 .btn:hover{
