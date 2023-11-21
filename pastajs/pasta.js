@@ -8,6 +8,3 @@ function clicar() {
         alert("[ERRO]senha incorreta!!!")
     }
 }
-function esqueceu() {
-    document.location.href = "https://wildrift.leagueoflegends.com/pt-br/news/tags/patch-notes/"
-}
