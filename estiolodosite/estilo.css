@@ -17,7 +17,7 @@ body{
     text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.445);
     background-color: rgba(0, 0, 0, 0.555);
     border-radius: 10px;
-    margin-bottom: 125px;
+    margin-bottom: 30px;
     box-shadow: 4px 5px 13px rgba(0, 0, 0, 0.527);
     max-width: 400px;
     padding: 40px;
@@ -41,7 +41,7 @@ body{
 #icone ul > li > a > img{
     width: 30px;
     margin: 10px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 #icone ul > li > a > img:hover{
     width: 40px;
@@ -91,10 +91,14 @@ body{
     float: left;
     margin-top: -5px;
     transition: 1s;
+    padding: 2px;
+    border-radius: 5px;
+    text-shadow: 2px 1px 5px black;
 }
 .forget:hover{
     color: black;
-    text-transform: uppercase;
+    background-color: white;
+    
 }
 .btn{
     position: relative;
@@ -109,7 +113,7 @@ body{
     margin-top: 20px;
     transition: .5s;
     overflow: hidden;
-    float: right;
+    margin-left: 14%;
 
 }
 .btn:hover{
