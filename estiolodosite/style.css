@@ -216,15 +216,32 @@ nav{
     }
 }
 
-@media(max-width:319px) {
+@media(max-width:440px) {
+    body{
+        display: block;
+    }
+    
+    .login{
+        border: outset;
+        width: 95%;
+        height: 95%;
+        margin: 10px auto;
+    }
     .nave > li{
         display: flex;
         justify-content: center;
+     }    
+   
+    .icones{
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-evenly;
     }
-    .login{
-        width: 95%;
-        height: 85%;
-        margin: 10px auto;
+
+    .icones > a > img {
+        width: 33px;
     }
-    
+    .icones > a > img:hover{
+        width: 38px; ;
+    }
 }
